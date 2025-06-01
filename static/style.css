@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+.dropzone {
+  width: 400px;
+  height: 200px;
+  border: 3px dashed #888;
+  border-radius: 10px;
+  margin: 30px auto;
+  line-height: 200px;
+  font-size: 18px;
+  color: #888;
+  transition: 0.3s ease;
+}
+.dropzone.dragover {
+  border-color: #007bff;
+  color: #007bff;
+  background: #f0f8ff;
+}
+#result {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #222;
+  white-space: pre-wrap;
+}

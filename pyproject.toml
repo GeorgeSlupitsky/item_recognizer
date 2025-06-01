@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "image-classifier-web"
+version = "0.1.0"
+description = "Web app for classifying collectible items with OCR"
+authors = ["Yehor Slupitskyi"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+pillow = "*"
+pytesseract = "*"
+flask = "*"
+selenium = "*"
+requests = "*"
+beautifulsoup4 = "*"
+tqdm = "*"
+icrawler = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

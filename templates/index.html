@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Upload Image for Classification</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Upload Image for Classification</h1>
+  <div class="dropzone" id="dropzone">Drag & Drop Image Here</div>
+  <input type="file" id="fileInput" style="display:none">
+  <div id="result"></div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
